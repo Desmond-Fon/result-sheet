@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  width: 100%;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 42px 12%;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-head {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.header-p {
+  padding: 16px 0;
+  font-weight: 500;
+}
+
+.header-bottom {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wrapper {
+  margin: 0 100px;
+}
+
+.top-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 36px;
+  font-size: 16px;
+  overflow-x: auto;
+}
+
+.mark-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  overflow-x: auto;
+}
+
+.remark-table {
+  padding-bottom: 25px;
+  font-size: 15px;
+  overflow-x: auto;
+}
+
+.grade {
+  padding-top: 25px;
+  font-size: 15px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+th,
+td {
+  padding: 5px 4px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+th {
+  font-weight: 600;
+}
+
+td {
+  border: 1px solid black;
+  white-space: nowrap;
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(2, 0, 102, 0.1);
+}
+
+tr:nth-child(even) {
+  background-color: rgba(153, 0, 1, 0.1);
+}
+
+.subject-head {
+  background-color: rgba(2, 0, 102, 0.1);
+}
+
+.first {
+  font-weight: 600;
+}
+
+.result-body {
+  font-size: 13px;
+  overflow-x: auto;
+}
+
+.grade-left {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  margin-top: 38px;
+  margin-right: 10px;
+}
+
+.grade-right {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  margin-top: 38px;
+  margin-left: 10px;
+}
+
+.performance {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.grade-system {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.italic-text {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.semibold-text {
+  font-weight: 600;
+}
